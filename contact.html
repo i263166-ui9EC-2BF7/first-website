@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Cafe - Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact My Cafe</h1>
+        <p>We Would Love to Hear From You</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <h2>Contact Us</h2>
+
+        <p>Please fill out the form below.</p>
+
+        <form onsubmit="alert('Thank you for contacting My Cafe!'); return false;">
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name"
+                   placeholder="Enter your name" required>
+
+            <br><br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email"
+                   placeholder="Enter your email" required>
+
+            <br><br>
+
+            <label for="message">Your Message:</label>
+            <br><br>
+
+            <textarea id="message" rows="5"
+                      placeholder="Write your message here"
+                      required></textarea>
+
+            <br><br>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>Copyright 2026 - My Cafe</p>
+    </footer>
+
+</body>
+</html>
